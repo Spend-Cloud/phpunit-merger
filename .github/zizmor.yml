@@ -1,0 +1,19 @@
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        actions/*: ref-pin
+        Spend-Cloud/*: ref-pin
+        vismagroup/*: ref-pin
+  unpinned-images:
+    disable: true
+  excessive-permissions:
+    disable: true
+  artipacked:
+    disable: true
+  secrets-inherit:
+    disable: true
+  template-injection:
+    disable: true
+  dependabot-cooldown:
+    disable: true
